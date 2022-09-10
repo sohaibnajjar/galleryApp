@@ -1,0 +1,43 @@
+.container {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.img {
+  width: 26vw;
+}
+
+.line {
+  width: 250px;
+  height: 1px;
+  border: none;
+  background-color: #dadada;
+  margin: 25px;
+}
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.generate-btn {
+  border-radius: 5px;
+  width: 100px;
+  height: 36px;
+  background-color: #00aaee;
+  color: #ffffff;
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+.generate-btn:disabled {
+  background-color: gray;
+}
